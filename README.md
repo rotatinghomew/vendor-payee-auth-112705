@@ -16,6 +16,24 @@
 | `pay_receipts.json` | 款项处理方 | 受理和扣款为独立事实；declined 表示明确未执行。 |
 | `change_reviews.json` | 已认证维护端 | representative 为目录中的请求来源，decision 记录发起或核准。 |
 
+## 本地流程
+
+`settlement.py` 在本地完成换账受理、核验与付款办理结论(只读资料,不实际划款):
+
+```sh
+python3 settlement.py changes                  # 换账请求的受理与核验结论
+python3 settlement.py accounts                 # 当前已核准的收款关系及账户依据
+python3 settlement.py pay                      # 值班员办理视图:照付 / 待核 / 误付待追偿
+python3 settlement.py submit --invoice '{...}' # 合作社财务提交新合成发票前核查
+python3 settlement.py supplier --person u30    # 供应商维护视图(仅有权代表的法人)
+python3 settlement.py ticket --invoice i-5     # 公共票据状态(只引用支付编号)
+```
+
+各子命令支持 `--at 分钟` 指定评估时刻(默认取资料中最晚观察时刻)与 `--json` 机器输出。
+办理口径:换账须发起与复核分离、渠道已登记且仍有效,并由开户行确认账户归属与币种;
+已扣款只按原指令跟进,受理中不得转投新账,明确未执行才可重选当前有效账户;经更正
+从未属于拟收款法人的账户,已付款项列作误付待追偿并保留原单据,不自动再次支付。
+
 ## 本地运行
 
 使用 Python 3.11 标准库。启动只读资料服务后可查看各来源当前准备好的输入文件：
