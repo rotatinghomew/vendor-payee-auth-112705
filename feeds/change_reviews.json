@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ar-1",
+    "change": "cr-pay-1",
+    "representative": "ma-1",
+    "contact": "c-1",
+    "account": "acct-new",
+    "entity": "wholesale-a",
+    "currency": "MXN",
+    "decision": "request",
+    "occurred": 24
+  },
+  {
+    "id": "ar-2",
+    "change": "cr-pay-1",
+    "representative": "ma-4",
+    "contact": "c-4",
+    "account": "acct-new",
+    "entity": "wholesale-a",
+    "currency": "MXN",
+    "decision": "approve",
+    "occurred": 25
+  },
+  {
+    "id": "ar-3",
+    "change": "cr-pay-1",
+    "representative": "ma-3",
+    "contact": "c-3",
+    "account": "acct-new",
+    "entity": "wholesale-a",
+    "currency": "MXN",
+    "decision": "approve",
+    "occurred": 27
+  },
+  {
+    "id": "ar-4",
+    "change": "cr-pay-1",
+    "representative": "ma-2",
+    "contact": "c-2",
+    "account": "acct-new",
+    "entity": "wholesale-a",
+    "currency": "MXN",
+    "decision": "approve",
+    "occurred": 29
+  },
+  {
+    "id": "ar-5",
+    "change": "cr-pay-2",
+    "representative": "ma-1",
+    "contact": "c-1",
+    "account": "acct-us",
+    "entity": "wholesale-a",
+    "currency": "USD",
+    "decision": "request",
+    "occurred": 37
+  },
+  {
+    "id": "ar-6",
+    "change": "cr-pay-2",
+    "representative": "ma-2",
+    "contact": "c-2",
+    "account": "acct-us",
+    "entity": "wholesale-a",
+    "currency": "USD",
+    "decision": "approve",
+    "occurred": 39
+  }
+]

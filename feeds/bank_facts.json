@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bf-1",
+    "account": "acct-old",
+    "holder": "wholesale-a",
+    "currencies": "MXN,USD",
+    "state": "confirmed",
+    "effective": 3,
+    "received": 4,
+    "replaces": null
+  },
+  {
+    "id": "bf-2",
+    "account": "acct-new",
+    "holder": "wholesale-a",
+    "currencies": "MXN",
+    "state": "confirmed",
+    "effective": 20,
+    "received": 22,
+    "replaces": null
+  },
+  {
+    "id": "bf-3",
+    "account": "acct-fund",
+    "holder": "fund-b",
+    "currencies": "USD",
+    "state": "confirmed",
+    "effective": 11,
+    "received": 12,
+    "replaces": null
+  },
+  {
+    "id": "bf-4",
+    "account": "acct-old",
+    "holder": "wholesale-a",
+    "currencies": "MXN,USD",
+    "state": "retired",
+    "effective": 44,
+    "received": 45,
+    "replaces": null
+  },
+  {
+    "id": "bf-5",
+    "account": "acct-new",
+    "holder": "wholesale-other",
+    "currencies": "MXN",
+    "state": "corrected",
+    "effective": 20,
+    "received": 65,
+    "replaces": "bf-2"
+  },
+  {
+    "id": "bf-6",
+    "account": "acct-us",
+    "holder": "wholesale-a",
+    "currencies": "USD",
+    "state": "confirmed",
+    "effective": 13,
+    "received": 14,
+    "replaces": null
+  }
+]

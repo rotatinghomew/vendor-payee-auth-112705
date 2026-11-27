@@ -1,0 +1,18 @@
+[
+  {
+    "id": "fa-1",
+    "seller": "wholesale-a",
+    "payee": "fund-b",
+    "invoice": "i-6",
+    "currency": "USD",
+    "valid_to": 80
+  },
+  {
+    "id": "fa-2",
+    "seller": "wholesale-a",
+    "payee": "fund-b",
+    "invoice": "i-4",
+    "currency": "USD",
+    "valid_to": 70
+  }
+]

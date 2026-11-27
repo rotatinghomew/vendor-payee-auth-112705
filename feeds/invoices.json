@@ -1,0 +1,42 @@
+[
+  {
+    "id": "i-4",
+    "seller": "wholesale-a",
+    "currency": "MXN",
+    "amount": 65000,
+    "assigned_payee": "wholesale-a",
+    "assignment_ref": null
+  },
+  {
+    "id": "i-5",
+    "seller": "wholesale-a",
+    "currency": "MXN",
+    "amount": 78000,
+    "assigned_payee": "wholesale-a",
+    "assignment_ref": null
+  },
+  {
+    "id": "i-6",
+    "seller": "wholesale-a",
+    "currency": "USD",
+    "amount": 49000,
+    "assigned_payee": "fund-b",
+    "assignment_ref": "fa-1"
+  },
+  {
+    "id": "i-7",
+    "seller": "wholesale-a",
+    "currency": "USD",
+    "amount": 120000,
+    "assigned_payee": "wholesale-a",
+    "assignment_ref": null
+  },
+  {
+    "id": "i-8",
+    "seller": "wholesale-a",
+    "currency": "MXN",
+    "amount": 29000,
+    "assigned_payee": "wholesale-a",
+    "assignment_ref": null
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "pr-1",
+    "transfer": "pay-1",
+    "invoice": "i-4",
+    "account": "acct-old",
+    "state": "accepted",
+    "occurred": 34,
+    "received": 35
+  },
+  {
+    "id": "pr-2",
+    "transfer": "pay-1",
+    "invoice": "i-4",
+    "account": "acct-old",
+    "state": "debited",
+    "occurred": 38,
+    "received": 64
+  },
+  {
+    "id": "pr-3",
+    "transfer": "pay-2",
+    "invoice": "i-5",
+    "account": "acct-old",
+    "state": "accepted",
+    "occurred": 39,
+    "received": 40
+  },
+  {
+    "id": "pr-4",
+    "transfer": "pay-2",
+    "invoice": "i-5",
+    "account": "acct-old",
+    "state": "declined",
+    "occurred": 46,
+    "received": 49
+  },
+  {
+    "id": "pr-5",
+    "transfer": "pay-3",
+    "invoice": "i-8",
+    "account": "acct-new",
+    "state": "accepted",
+    "occurred": 42,
+    "received": 45
+  },
+  {
+    "id": "pr-6",
+    "transfer": "pay-3",
+    "invoice": "i-8",
+    "account": "acct-new",
+    "state": "debited",
+    "occurred": 47,
+    "received": 66
+  }
+]

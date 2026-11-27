@@ -1,0 +1,13 @@
+{
+  "time_origin": "2026-11-27T00:00:00Z",
+  "time_unit": "minute",
+  "sample_ref": "pay_receipts/pr-6",
+  "sources": {
+    "mandates": "公司目录",
+    "bank_facts": "开户行",
+    "invoices": "财务登记",
+    "factoring": "债权登记处",
+    "pay_receipts": "款项处理方",
+    "change_reviews": "已认证维护端"
+  }
+}

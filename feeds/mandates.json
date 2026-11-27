@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ma-1",
+    "person": "u30",
+    "legal_entity": "wholesale-a",
+    "role": "propose",
+    "contact": "c-1",
+    "contact_since": 1,
+    "valid_to": 100
+  },
+  {
+    "id": "ma-2",
+    "person": "u41",
+    "legal_entity": "wholesale-a",
+    "role": "review",
+    "contact": "c-2",
+    "contact_since": 2,
+    "valid_to": 100
+  },
+  {
+    "id": "ma-3",
+    "person": "u44",
+    "legal_entity": "wholesale-a",
+    "role": "review",
+    "contact": "c-3",
+    "contact_since": 26,
+    "valid_to": 100
+  },
+  {
+    "id": "ma-4",
+    "person": "u30",
+    "legal_entity": "wholesale-a",
+    "role": "review",
+    "contact": "c-4",
+    "contact_since": 2,
+    "valid_to": 100
+  },
+  {
+    "id": "ma-5",
+    "person": "u65",
+    "legal_entity": "fund-b",
+    "role": "review",
+    "contact": "c-5",
+    "contact_since": 1,
+    "valid_to": 80
+  },
+  {
+    "id": "ma-6",
+    "person": "u70",
+    "legal_entity": "wholesale-a",
+    "role": "pay",
+    "contact": "c-6",
+    "contact_since": 4,
+    "valid_to": 100
+  }
+]
