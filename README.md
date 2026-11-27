@@ -15,6 +15,7 @@
 | `factoring.json` | 债权登记处 | 每份保理以明确的账单及币种为准。 |
 | `pay_receipts.json` | 款项处理方 | 受理和扣款为独立事实；declined 表示明确未执行。 |
 | `change_reviews.json` | 已认证维护端 | representative 为目录中的请求来源，decision 记录发起或核准。 |
+
 ## 本地运行
 
 使用 Python 3.11 标准库。启动只读资料服务后可查看各来源当前准备好的输入文件：
@@ -29,4 +30,4 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory feeds
 python3 -m unittest discover -s tests -v
 ```
 
-测试核对演练资料的字段与索引引用。
+测试核对演练资料的字段、索引及来源间的引用。
